@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const MONGO_URI = 'mongodb+srv://subhashreeloganathan:crud58@cluster0.dfqx3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = '';
 
 mongoose.connect(MONGO_URI, {
     useNewUrlParser: true,
